@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+
+body {
+    font-family: Nunito, serif;
+    background: linear-gradient(221deg, rgba(90, 70, 70, 0.29) 0%, #38A5A5 100%);
+}
+
+
+.nav-link {
+    color: aquamarine;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(148, 155, 153);
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.navbar-toggler {
+    background-color: rgb(148, 155, 153);
+    ;
+
+}
+
+.sidebar {
+    color: rgb(48, 71, 89);
+    background: linear-gradient(90deg, rgba(90, 70, 70, 0.29) 0%, #72b0b0 100%);
+}
+
+.card {
+    background: linear-gradient(90deg, rgba(125, 119, 119, 0.29) 0%, #a5c4c4 100%);
+}
+
+.card a {
+    text-decoration: none;
+}
+
+.slide-text,
+.footer-text {
+    margin: auto auto;
+}
+
+footer,
+.btn-outline-primary {
+
+    background: linear-gradient(90deg, rgba(156, 170, 172, 0.467) 0%, #709e9e 100%);
+}
+
+
+
+header {
+    background: linear-gradient(90deg, rgba(156, 170, 172, 0.467) 0%, #709e9e 100%);
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-anim {
+    animation: call 3s ease 0s infinite normal forwards;
+}
+
+@keyframes call {
+
+    0%,
+    100% {
+        transform: translateX(0%);
+        transform-origin: 50% 50%;
+    }
+
+    15% {
+        transform: translateX(-30px) rotate(-6deg);
+    }
+
+    30% {
+        transform: translateX(15px) rotate(6deg);
+    }
+
+    45% {
+        transform: translateX(-15px) rotate(-3.6deg);
+    }
+
+    60% {
+        transform: translateX(9px) rotate(2.4deg);
+    }
+
+    75% {
+        transform: translateX(-6px) rotate(-1.2deg);
+    }
+}
+
+.video-text {
+    width: 100px;
+    height: 500px;
+}
+
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
